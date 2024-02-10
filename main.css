@@ -1,4 +1,6 @@
+/*This contain the site font which is taken from google */
 @import url('https://fonts.google.leapis.com/css?family=pacifico');
+/*The body settings which is the page settings*/
 body{
     background-color: coral;
 
@@ -7,13 +9,13 @@ body{
     margin-top: 70px;
     padding: 30px;
 }
-
+/*settings of the links*/
 nav a{
     text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: none;
 }
-
+/*the header tag and the main tag which controle the texts and the links*/
 header, main{
     background-color: #f5f8bb;
     border-radius: 20px;
@@ -21,25 +23,26 @@ header, main{
     min-height: 100px;
 }
 
+/*the image settings*/
 .omg{
     width: 100px;
     float: left;
 }
-
+/*the list settings*/
 nav li{
     display: inline;
     margin-left: 10px;
 }
-
+/*this controle the titles and the questions fonts*/
 h1, h2{
     font-family: 'Pacifico', cursive;
 }
-
+/*this one controle the text placement*/
 main{
     margin-top: 20px;
     line-height: 1.5em;
 }
-
+/*all this down is to check how the site will looks like on the other devices with differnet sizes like big screens or phones*/
 @media only screen and (max-width: 700px){
     *{
         margin: 0;
